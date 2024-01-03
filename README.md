@@ -19,9 +19,10 @@ Para levantar el proyecto en un entorno local, sigue estos pasos:
    - Configura la variable `DATABASE_URL` según tu motor de base de datos. Para Postgresql, asegúrate de agregar el usuario, la contraseña y el nombre de la base de datos.
 
 3. **Migraciones de Base de Datos:**
+   - Ejecuta `symfony console doctrine:database:create` en la consola para generar la base de datos.
    - Ejecuta `symfony console doctrine:migrations:migrate` en la consola para generar las tablas correspondientes en la base de datos.
 
-4. **Levantar el Servidor Local:**
+5. **Levantar el Servidor Local:**
    - Utiliza `symfony serve` para iniciar un servidor local.
 
 ## Uso de la API
